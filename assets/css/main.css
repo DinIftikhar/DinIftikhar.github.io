@@ -100,7 +100,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: rgb(5, 5, 5);
+		color: rgb(6, 6, 6);
 		font-weight: 300;
 		font-size: 13pt;
 	}
@@ -130,7 +130,7 @@ input, select, textarea {
 
 	i, em {
 		font-style: italic;
-		color: #1900ff
+		color: #050505
 	}
 
 	sub {
@@ -204,7 +204,7 @@ input, select, textarea {
 
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
-		color: #000000;
+		color: #0a0606;
 	}
 
 	header {
@@ -2385,7 +2385,7 @@ input, select, textarea {
 
 			.wrapper {
 				padding: 3em 0;
-				text-align: center;
+				text-align: stretch;
 			}
 
 		/* Nav */
