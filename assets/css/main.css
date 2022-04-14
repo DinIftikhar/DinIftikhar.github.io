@@ -100,7 +100,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		color: rgb(5, 5, 5);
 		font-weight: 300;
 		font-size: 13pt;
 	}
@@ -110,8 +110,9 @@ input, select, textarea {
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		color: #43B3E0;
-		text-decoration: underline;
+		color: #0062DB;
+		text-decoration: underline ;
+		
 	}
 
 		a:hover {
@@ -124,11 +125,12 @@ input, select, textarea {
 
 	b, strong {
 		font-weight: 600;
-		color: #3e3e3e;
+		color: #171717;
 	}
 
 	i, em {
 		font-style: italic;
+		color: #1900ff
 	}
 
 	sub {
@@ -150,7 +152,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: #161515;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -194,7 +196,7 @@ input, select, textarea {
 	hr {
 		border: 0;
 		border-top: solid 1px #444;
-		border-top-color: rgba(0, 0, 0, 0.35);
+		border-top-color: rgba(83, 82, 82, 0.35);
 		box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
 		height: 1px;
 		margin: 3em 0;
@@ -202,6 +204,7 @@ input, select, textarea {
 
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
+		color: #000000;
 	}
 
 	header {
@@ -209,7 +212,7 @@ input, select, textarea {
 	}
 
 		header > p {
-			font-size: 1.25em;
+			font-size: 1.5em;
 			margin: 0;
 		}
 
@@ -218,7 +221,7 @@ input, select, textarea {
 	}
 
 		footer > p {
-			font-size: 1.25em;
+			font-size: 2.0em;
 		}
 
 /* Container */
@@ -1804,7 +1807,7 @@ input, select, textarea {
 					-webkit-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
 					transition: background-color .2s ease-in-out;
-					background-color: #E0FFFF;
+					background-color: rgb(196, 206, 207);
 					border-radius: 6px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
 					color: #2E2E2E !important;
@@ -2106,7 +2109,7 @@ input, select, textarea {
 
 	#top {
 		padding: 10em 0 10em 0;
-		text-align: left;
+		text-align: justify;
 	}
 
 		#top .image {
@@ -2134,14 +2137,14 @@ input, select, textarea {
 			}
 
 	#contact footer {
-		font-size: 0.9em;
+		font-size: 2.0em;
 	}
 
 /* Copyright */
 
 	#copyright {
-		color: #666;
-		font-size: 1em;
+		color: rgb(146, 157, 163);
+		font-size: 2.0em;
 		line-height: 1em;
 		list-style: none;
 		padding-left: 0;
@@ -2182,11 +2185,11 @@ input, select, textarea {
 		/* Basic */
 
 			body {
-				font-size: 11pt;
+				font-size: 13pt;
 			}
 
 			input, textarea, select {
-				font-size: 11pt;
+				font-size: 13pt;
 			}
 
 			header {
@@ -2248,12 +2251,12 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				line-height: 1.75em;
-				font-size: 10pt;
+				font-size: 13pt;
 				letter-spacing: 0;
 			}
 
 			h1, h2, h3, h4, h5, h6 {
-				font-size: 1.25em;
+				font-size: 1.50em;
 				margin: 0 0 0.4em 0;
 			}
 
